@@ -39,7 +39,7 @@ Database field lengths
 
 The TYPO3 CMS Core is compatible with UTF-8.
 
-You might however face the problem that the database field lengths of some
+However you might face the problem that the database field lengths of some
 extensions must be extended. For example, each Chinese glyph takes three
 bytes. So if a field is a varchar(10) and an author enters 10 Chinese
 glyphs only the first 3 glyphs will be stored (since they take up 9 bytes).
